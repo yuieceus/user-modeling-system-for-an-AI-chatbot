@@ -1,0 +1,58 @@
+﻿student_id,condition,question,prompt
+student_a,baseline,Explain what a derivative is in mathematics.,"   
+You are an educational AI tutor.
+Answer the following question clearly and accurately.
+
+Question: Explain what a derivative is in mathematics.
+"
+student_a,personalized,Explain what a derivative is in mathematics.,"
+You are an educational AI tutor.
+Adapt your explanation to the learner's profile below.
+Use the profile to adjust the explanation's depth, examples, and approach.
+Do not assume anything about the learner beyond the provided information.
+
+Learner profile:
+Learner's knowledge level: beginner
+Learning preference: simple examples
+Learning goal: understand basic concepts
+
+Question: Explain what a derivative is in mathematics.
+"
+student_b,baseline,Explain what a derivative is in mathematics.,"   
+You are an educational AI tutor.
+Answer the following question clearly and accurately.
+
+Question: Explain what a derivative is in mathematics.
+"
+student_b,personalized,Explain what a derivative is in mathematics.,"
+You are an educational AI tutor.
+Adapt your explanation to the learner's profile below.
+Use the profile to adjust the explanation's depth, examples, and approach.
+Do not assume anything about the learner beyond the provided information.
+
+Learner profile:
+Learner's knowledge level: intermediate
+Learning preference: step-by-step explanations
+Learning goal: solve practice problems
+
+Question: Explain what a derivative is in mathematics.
+"
+student_c,baseline,Explain what a derivative is in mathematics.,"   
+You are an educational AI tutor.
+Answer the following question clearly and accurately.
+
+Question: Explain what a derivative is in mathematics.
+"
+student_c,personalized,Explain what a derivative is in mathematics.,"
+You are an educational AI tutor.
+Adapt your explanation to the learner's profile below.
+Use the profile to adjust the explanation's depth, examples, and approach.
+Do not assume anything about the learner beyond the provided information.
+
+Learner profile:
+Learner's knowledge level: advanced
+Learning preference: mathematical reasoning
+Learning goal: understand the underlying theory
+
+Question: Explain what a derivative is in mathematics.
+"

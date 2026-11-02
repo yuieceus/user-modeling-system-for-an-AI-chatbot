@@ -1,0 +1,418 @@
+student_id;condition;question;prompt;response
+student_a;baseline;Explain what a derivative is in mathematics.;"You are an educational AI tutor.
+Answer the following question clearly and accurately.
+
+Question: Explain what a derivative is in mathematics.";"Baseline response — Student A
+
+A derivative tells us how quickly something is changing at a specific point.
+
+Imagine you're riding a bicycle. Your speed changes as you pedal. Your average speed tells you how fast you traveled over a whole period, but your instantaneous speed tells you how fast you're going at one exact moment.
+
+A derivative works in a similar way in mathematics. It measures the instantaneous rate of change of a function.
+
+For example, consider the function:
+\[
+f(x)=x^2
+\]
+
+Its derivative is:
+\[
+f'(x)=2x
+\]
+
+This means that the rate of change depends on the value of \(x\).
+- At \(x=1\), the derivative is 2.
+- At \(x=3\), the derivative is 6.
+So, the function changes faster as \(x\) gets larger.
+
+In simple terms: A derivative tells us how steep a graph is at a particular point and how quickly its value is changing."
+student_a;personalized;Explain what a derivative is in mathematics.;"You are an educational AI tutor.
+Adapt your explanation to the learner's profile below.
+Use the profile to adjust the explanation's depth, examples, and approach.
+Do not assume anything about the learner beyond the provided information.
+
+Learner profile:
+Learner's knowledge level: beginner
+Learning preference: simple examples
+Learning goal: understand basic concepts
+
+Question: Explain what a derivative is in mathematics.";"A derivative tells us how quickly something changes at a particular moment.
+
+Let's understand this with a simple example.
+
+Imagine you are riding a bicycle. When you pedal slowly, your speed is low. When you pedal harder, your speed increases. Your speed at one exact moment is similar to what a derivative measures in mathematics.
+
+Think about this function:
+\[
+f(x)=x^2
+\]
+
+Its derivative is:
+\[
+f'(x)=2x
+\]
+
+What does this mean?
+- When \(x=1\), the derivative is 2.
+- When \(x=2\), the derivative is 4.
+- When \(x=3\), the derivative is 6.
+Notice that as \(x\) increases, the derivative also increases. This tells us that the function is changing faster.
+
+You can also imagine a derivative as the steepness of a road:
+- A flat road has a derivative close to zero.
+- A steep uphill road has a large positive derivative.
+- A steep downhill road has a large negative derivative.
+The main idea: A derivative tells us how fast a function changes at a specific point. It helps us understand the behavior of a function rather than just its final value."
+student_b;baseline;Explain what a derivative is in mathematics.;"You are an educational AI tutor.
+Answer the following question clearly and accurately.
+
+Question: Explain what a derivative is in mathematics.";"Student B – Baseline response
+A derivative is a mathematical concept that measures the instantaneous rate of change of a function. It describes how much the output of a function changes when its input changes by a very small amount.
+
+Geometrically, the derivative represents the slope of the tangent line to a function's graph at a specific point.
+
+For example, consider:
+\[
+f(x)=x^2
+\]
+
+Using the power rule, its derivative is:
+\[
+f'(x)=2x
+\]
+
+This means the slope of the function depends on the value of \(x\).
+- At \(x=1\), the slope is 2.
+- At \(x=2\), the slope is 4.
+- At \(x=3\), the slope is 6.
+The derivative can also be defined using a limit:
+\[
+f'(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}
+\]
+
+This formula calculates the instantaneous rate of change by examining how the function changes over increasingly smaller intervals.
+
+Derivatives are widely used in physics to calculate velocity and acceleration, in economics to analyze marginal costs, and in optimization to find maximum and minimum values.
+
+In summary: A derivative tells us the instantaneous rate at which a function changes and describes the slope of its tangent line at a given point."
+student_b;personalized;Explain what a derivative is in mathematics.;"You are an educational AI tutor.
+Adapt your explanation to the learner's profile below.
+Use the profile to adjust the explanation's depth, examples, and approach.
+Do not assume anything about the learner beyond the provided information.
+
+Learner profile:
+Learner's knowledge level: intermediate
+Learning preference: step-by-step explanations
+Learning goal: solve practice problems
+
+Question: Explain what a derivative is in mathematics.
+";"Student B – Personalized response
+A derivative measures the instantaneous rate of change of a function. In other words, it tells us how quickly the output changes when the input changes.
+
+Let's understand this step by step.
+
+Step 1: Understand the function
+
+Consider:
+\[
+f(x)=x^2
+\]
+
+This function takes an input \(x\) and returns its square.
+
+Step 2: Find the derivative
+
+Using the power rule:
+\[
+\frac{d}{dx}(x^n)=nx^{n-1}
+\]
+
+We get:
+\[
+f'(x)=2x
+\]
+
+The derivative describes the slope of the tangent line to the graph at each point.
+
+Step 3: Calculate the derivative at a specific point
+
+Suppose we want to find the derivative at \(x=3\).
+
+Substitute 3 into the derivative:
+\[
+f'(3)=2(3)=6
+\]
+
+Therefore, the instantaneous rate of change at \(x=3\) is 6.
+
+Step 4: Understand what the result means
+
+At \(x=3\), the graph has a tangent slope of 6. This means that near this point, a small increase in \(x\) produces approximately six times that increase in the function's output.
+
+Step 5: Apply the idea
+
+Try this practice question:
+
+If:
+\[
+g(x)=x^3
+\]
+
+What is the derivative at \(x=2\)?
+
+Using the power rule:
+\[
+g'(x)=3x^2
+\]
+
+Substitute \(x=2\):
+\[
+g'(2)=3(2)^2=12
+\]
+
+Final takeaway: A derivative tells us the instantaneous rate of change of a function. To calculate it, we can use differentiation rules such as the power rule, then substitute a specific value to find the rate of change at that point."
+student_c;baseline;Explain what a derivative is in mathematics.;"
+You are an educational AI tutor.
+Answer the following question clearly and accurately.
+
+Question: Explain what a derivative is in mathematics.
+";"A derivative measures the instantaneous rate of change of a function. It tells us how quickly the output changes when the input changes by a very small amount.
+
+For example, consider:
+\[
+f(x)=x^2
+\]
+
+Its derivative is:
+\[
+f'(x)=2x
+\]
+
+This means the slope of the function depends on the value of \(x\).
+- At \(x=1\), the derivative is \(2\).
+- At \(x=2\), the derivative is \(4\).
+- At \(x=3\), the derivative is \(6\).
+Geometrically, the derivative represents the slope of the tangent line to a function's graph at a specific point.
+
+
+\(f'(a)=\lim_{h\to0^+}\frac{f(a+h)-f(a)}{h}\)
+
+\(\frac{f(2 + 2) - f(2)}{2} = 6\quad \text{error} = 2\)
+
+\(h\)
+
+
+
+
+
+
+
+
+
+
+        .graphable-function-chartjs {
+          position: relative;
+          overflow: hidden;
+          touch-action: none;
+        }
+
+        .graphable-function-chartjs-tooltip {
+          position: absolute;
+          z-index: 1;
+          overflow: visible;
+          pointer-events: none;
+        }
+
+        .graphable-function-chartjs-guide {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          border-left: 1px dashed var(--border-heavy);
+          pointer-events: none;
+        }
+
+        .graphable-function-chartjs-hover-point {
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          margin-left: -4px;
+          margin-top: -4px;
+          border: 1.5px solid var(--bg-primary);
+          border-radius: 9999px;
+          background: var(--learning-block-accent);
+          pointer-events: none;
+        }
+
+        .graphable-function-chartjs-reset {
+          position: absolute;
+          left: 12px;
+          bottom: 12px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 2;
+          width: 32px;
+          height: 32px;
+          border: 1px solid var(--border-light);
+          border-radius: 9999px;
+          background: var(--bg-primary);
+          color: var(--text-primary);
+          box-shadow: 0 2px 8px
+            color-mix(in srgb, var(--text-primary) 8%, transparent);
+          padding: 0;
+          transition: opacity 160ms ease, transform 160ms ease;
+        }
+      
+
+
+
+
+
+
+Geri bildirim ver
+
+The derivative can also be defined using a limit:
+\[
+f'(x)=\lim_{h\to0}\frac{f(x+h)-f(x)}{h}
+\]
+
+This definition calculates the rate of change as the interval between two points approaches zero.
+
+Derivatives are useful in many fields:
+- Physics: calculating velocity and acceleration.
+- Economics: analyzing marginal costs.
+- Optimization: finding maximum and minimum values.
+In summary: A derivative tells us how quickly a function changes at a particular point and represents the slope of its tangent line."
+student_c;personalized;Explain what a derivative is in mathematics.;"You are an educational AI tutor.
+Adapt your explanation to the learner's profile below.
+Use the profile to adjust the explanation's depth, examples, and approach.
+Do not assume anything about the learner beyond the provided information.
+
+Learner profile:
+Learner's knowledge level: advanced
+Learning preference: mathematical reasoning
+Learning goal: understand the underlying theory
+
+Question: Explain what a derivative is in mathematics.";"A derivative is a fundamental concept in calculus that describes the instantaneous rate of change of a function. More formally, it measures how sensitive a function's output is to an infinitesimal change in its input.
+1. The limit definition
+For a function \(f(x)\), its derivative at a point \(x=a\) is defined as:
+\[
+f'(a)=\lim_{h\to 0}\frac{f(a+h)-f(a)}{h}
+\]
+
+This expression is called the difference quotient.
+
+It measures the average rate of change between two points. As \(h\) approaches zero, the interval becomes smaller, and the quotient approaches the instantaneous rate of change, provided the limit exists.
+2. Geometric interpretation
+Geometrically, the derivative represents the slope of the tangent line to a function's graph at a particular point.
+
+
+\(f'(a)=\lim_{h\to0^+}\frac{f(a+h)-f(a)}{h}\)
+
+\(\frac{f(2 + 2) - f(2)}{2} = 6\quad \text{error} = 2\)
+
+\(h\)
+
+
+
+
+
+
+
+
+
+
+        .graphable-function-chartjs {
+          position: relative;
+          overflow: hidden;
+          touch-action: none;
+        }
+
+        .graphable-function-chartjs-tooltip {
+          position: absolute;
+          z-index: 1;
+          overflow: visible;
+          pointer-events: none;
+        }
+
+        .graphable-function-chartjs-guide {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          border-left: 1px dashed var(--border-heavy);
+          pointer-events: none;
+        }
+
+        .graphable-function-chartjs-hover-point {
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          margin-left: -4px;
+          margin-top: -4px;
+          border: 1.5px solid var(--bg-primary);
+          border-radius: 9999px;
+          background: var(--learning-block-accent);
+          pointer-events: none;
+        }
+
+        .graphable-function-chartjs-reset {
+          position: absolute;
+          left: 12px;
+          bottom: 12px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 2;
+          width: 32px;
+          height: 32px;
+          border: 1px solid var(--border-light);
+          border-radius: 9999px;
+          background: var(--bg-primary);
+          color: var(--text-primary);
+          box-shadow: 0 2px 8px
+            color-mix(in srgb, var(--text-primary) 8%, transparent);
+          padding: 0;
+          transition: opacity 160ms ease, transform 160ms ease;
+        }
+      
+
+
+
+
+
+
+Geri bildirim ver
+
+For example, consider:
+\[
+f(x)=x^2
+\]
+
+Using the power rule:
+\[
+f'(x)=2x
+\]
+
+At \(x=2\):
+\[
+f'(2)=4
+\]
+
+Therefore, the tangent line to the graph at \(x=2\) has a slope of 4.
+3. Differentiability and continuity
+A function is differentiable at a point if its derivative exists there.
+
+Differentiability implies continuity, but continuity does not necessarily imply differentiability.
+
+For example, \(f(x)=|x|\) is continuous at \(x=0\), but it is not differentiable there because its left-hand and right-hand derivatives are different.
+4. The derivative as a linear approximation
+Another important interpretation is that the derivative describes how a function behaves locally.
+
+For a small change \(h\):
+\[
+f(a+h)\approx f(a)+f'(a)h
+\]
+
+This means that near a point, a differentiable function can be approximated by a linear function. This idea is central to numerical methods, optimization, and mathematical modeling.
+
+Final takeaway: A derivative is not simply a formula for calculating slopes. It is a mathematical tool for understanding local change, sensitivity, and the behavior of functions."
